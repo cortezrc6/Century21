@@ -134,7 +134,8 @@ abbr[data-bs-original-title] {
 address {
   margin-bottom: 1rem;
   font-style: normal;
-  line-height: inherit; }
+  line-height: inherit; 
+ font-family:'Barlow Semi Condensed', sans-serif;}
 
 ol,
 ul {
@@ -9665,7 +9666,9 @@ textarea {
     color: #fff;
     font-size: clamp(3.5rem, 2.5vw, 2.5rem);
     margin-bottom: 30px;
-    font-weight: 600; }
+    font-weight: 400;
+    font-size: 90px;
+    font-family:'Barlow Semi Condensed', sans-serif;}
     .badges{
       padding-right: 65px;
       padding-bottom: 30px;
@@ -9969,7 +9972,9 @@ textarea {
   .feature-h .feature-text {
     margin-top: 15px; }
     .feature-h .feature-text .heading {
-      font-size: 18px; }
+      font-size: 24px;
+    font-family:'Barlow Semi Condensed', sans-serif;
+   color: #A19276; }
   .feature-h:hover .wrap-icon, .feature-h:focus .wrap-icon {
     border: 2px solid #BCAF8A;
     background-color: transparent;
@@ -10266,7 +10271,9 @@ nav[aria-label="breadcrumb"] li:before {
     color: #777;
     position: relative;
     display: inline-block;
-    text-decoration: underline; }
+    text-decoration: none;
+    font-family: 'Barlow Semi Condensed', sans-serif; 
+    font-size: 15px;}
     .site-footer a:hover {
       color: #000;
       text-decoration: none; }
@@ -10281,11 +10288,12 @@ nav[aria-label="breadcrumb"] li:before {
     margin-bottom: 40px;
     display: block; }
     .site-footer .widget h3, .site-footer .widget .h3 {
-      font-size: 12px;
+      font-size: 15px;
       font-weight: 700;
+      font-family:'Barlow Semi Condensed', sans-serif;
       text-transform: uppercase;
       margin-bottom: 15px;
-      color: #00204a; }
+      color: #BCAF8A; }
     .site-footer .widget .links {
       width: 150px; }
       .site-footer .widget .links li {
