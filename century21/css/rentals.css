@@ -1,0 +1,8 @@
+.bullet-form h1{
+    text-align: center;
+}
+
+.bullet-form ul li{
+    text-align: left;
+   line-height: 30px;
+}
