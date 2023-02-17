@@ -10305,7 +10305,7 @@ nav[aria-label="breadcrumb"] li:before {
       width: 40px;
       height: 40px;
       position: relative;
-      background: #ccc;
+      background: rgb(65, 64, 66);
       border-radius: 40%; }
       .site-footer .social li a:before {
         display: none; }
@@ -10317,8 +10317,8 @@ nav[aria-label="breadcrumb"] li:before {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%); }
       .site-footer .social li a:hover {
-        background: #00204a;
-        color: #fff; }
+        background: rgb(65, 64, 66);;
+        color: #BCAF8A; }
 @media (max-width: 1400px) {
   .site-nav .site-navigation .site-menu > li > a {
     display: none;
