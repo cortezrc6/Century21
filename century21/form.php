@@ -40,8 +40,8 @@ try {
     $mail->Body    = $messagecontent;
     
     $mail->send();
-    header("location:index.html");
     echo 'Message has been sent';
+    header("location:index.html");
 } catch (Exception $e) {
    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
