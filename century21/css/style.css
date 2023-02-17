@@ -9971,13 +9971,13 @@ textarea {
     .feature-h .feature-text .heading {
       font-size: 18px; }
   .feature-h:hover .wrap-icon, .feature-h:focus .wrap-icon {
-    border: 2px solid #00204a;
+    border: 2px solid #BCAF8A;
     background-color: transparent;
     -webkit-transform: scale(1.07);
     -ms-transform: scale(1.07);
     transform: scale(1.07); }
   .feature-h:hover [class^="icon-"], .feature-h:focus [class^="icon-"] {
-    color: #00204a; }
+    color: #BCAF8A; }
 
 .img-about img {
   position: relative;
