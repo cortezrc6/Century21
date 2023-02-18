@@ -9665,7 +9665,7 @@ textarea {
   .hero .heading {
     color: #fff;
     font-size: clamp(3.5rem, 2.5vw, 2.5rem);
-    padding-top: 20%;
+    margin-bottom: 30px;
     font-weight: 400;
     font-size: 70px;
     font-family:'Barlow Semi Condensed', sans-serif;}
@@ -9681,7 +9681,9 @@ textarea {
   }
   .Realtor img{
     width: 70px;
-    float: right;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 30%;
     }
   .hero .lead {
     color: #fff;
