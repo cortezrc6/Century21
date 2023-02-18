@@ -9187,9 +9187,8 @@ textarea.form-control-lg {
   }
 
 .site-nav {
-  padding-top: 15px;
   padding-bottom: 10px;
-  position: absolute;
+  position: fixed;
   top: 0;
   z-index: 9;
   width: 100%; }
@@ -9681,10 +9680,16 @@ textarea {
   }
   .Realtor img{
     height: auto;
-    width: 7%;
-    position: absolute;
-    margin-top: 6%;
-    margin-left: 38%;
+    width: 100px;
+    float: right;
+    opacity: 0.8;
+    }
+    .Equal-housing img{
+    height: auto;
+    width: 110px;
+  float: right;
+  margin-right: 20px;
+  opacity: 0.8;
     }
   .hero .lead {
     color: #fff;
