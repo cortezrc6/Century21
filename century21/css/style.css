@@ -10327,11 +10327,12 @@ nav[aria-label="breadcrumb"] li:before {
         color: #BCAF8A; }
 
 
-@media (max-width: 1400px) {
+
+@media (max-width: 1200px) {
   .site-nav .site-navigation .site-menu > li > a {
     display: none;
   }
- 
+
   .burger {
     width: 28px;
     height: 32px;
