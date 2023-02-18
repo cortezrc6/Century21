@@ -9667,7 +9667,7 @@ textarea {
     font-size: clamp(3.5rem, 2.5vw, 2.5rem);
     margin-bottom: 30px;
     font-weight: 400;
-    font-size: 90px;
+    font-size: 70px;
     font-family:'Barlow Semi Condensed', sans-serif;}
     .badges{
       padding-right: 65px;
@@ -10319,6 +10319,28 @@ nav[aria-label="breadcrumb"] li:before {
       .site-footer .social li a:hover {
         background: rgb(65, 64, 66);;
         color: #BCAF8A; }
+.Realtor{
+position: absolute;
+padding-top: 7%;
+padding-left: 80%;
+}
+.Realtor img{
+width: 70px;
+z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .Realtor{
+    position: absolute;
+    padding-top: 10%;
+    padding-left: 75%;
+    }
+    .Realtor img{
+    width: 70px;
+    z-index: 1;
+    }
+  
+}
 @media (max-width: 1400px) {
   .site-nav .site-navigation .site-menu > li > a {
     display: none;
@@ -10330,6 +10352,16 @@ nav[aria-label="breadcrumb"] li:before {
     cursor: pointer;
     position: relative;
 }
+.Realtor{
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 80%;
+  }
+  .Realtor img{
+  width: 70px;
+  z-index: 1;
+  }
+
 
 .me-auto {
     margin-right: auto !important;
