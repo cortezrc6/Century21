@@ -11,7 +11,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $message = $_POST['message'];
 // preparing mail content
-$messagecontent ="Name = ". $name . "<br>Email = " . $email . "<br>Message =" . $message;
+$messagecontent ="Name: ". $name . "<br>Email: " . $email . "<br><br>Message:<br><br>" . $message;
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
 try {
@@ -33,10 +33,10 @@ try {
    // $mail->addBCC('bcc@example.com');
     //Attachments
     //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-   // $mail->addAttachment('photo.jpeg', 'photo.jpeg');    //Optional name
+   //$mail->addAttachment('photo.jpeg', 'photo.jpeg');    //Optional name
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
+    $mail->Subject = 'Century 21';
     $mail->Body    = $messagecontent;
     
     $mail->send();
@@ -46,3 +46,4 @@ try {
    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
 ?>
+
