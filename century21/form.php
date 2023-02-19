@@ -25,9 +25,9 @@ try {
    // $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
     $mail->Port       = 587;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
     //Recipients
-    $mail->setFrom('century21@century21.website');
+    $mail->setFrom('info@c21prestige.com');
     //$mail->addAddress('joe@example.net', 'Joe User');     //Add a recipient
-    $mail->addAddress('century21@century21.website');               //Name is optional
+    $mail->addAddress('info@c21prestige.com');               //Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
    // $mail->addCC('cc@example.com');
    // $mail->addBCC('bcc@example.com');
