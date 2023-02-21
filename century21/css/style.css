@@ -10395,3 +10395,22 @@ a:-webkit-any-link {
 .banner img{
   width: 100%;
 }
+.video video{
+width: 100%;
+height: auto;
+padding-top: 5%;
+padding-left: 112px;
+padding-right: 112px;
+padding-bottom: 5%;
+}
+
+.details{
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.details h1{
+ font-size: 60px;
+ font-family: 'Barlow Semi Condensed', sans-serif;
+ font-weight: bold;
+}
