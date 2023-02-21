@@ -9680,16 +9680,26 @@ textarea {
   }
   .Realtor img{
     height: auto;
-    width: 100px;
+    width: 70px;
     float: right;
+    margin-right: 10px;
+    margin-top: 10px;
     opacity: 0.8;
     }
     .Equal-housing img{
     height: auto;
-    width: 110px;
+    width: 80px;
   float: right;
   margin-right: 20px;
+  margin-top: 10px;
   opacity: 0.8;
+    }
+
+    .MLS img{
+      height: auto;
+      width: 150px;
+      float: right;
+      opacity: 0.8;
     }
   .hero .lead {
     color: #fff;
@@ -10395,13 +10405,14 @@ a:-webkit-any-link {
 .banner img{
   width: 100%;
 }
+
+.video{
+  text-align: center;
+}
 .video video{
-width: 100%;
+width: 500px;
 height: auto;
-padding-top: 5%;
-padding-left: 112px;
-padding-right: 112px;
-padding-bottom: 5%;
+margin-top: 8%;
 }
 
 .details{
